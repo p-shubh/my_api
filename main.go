@@ -28,7 +28,7 @@ func Dummy(c *gin.Context) {
 
 	if ok == false {
 		res := gin.H{
-			"error": "name is missing",
+			"error": "name_is_missing",
 		}
 		c.JSON(http.StatusOK, res)
 		return
